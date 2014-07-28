@@ -1,0 +1,122 @@
+/*!
+ * Custom CSS for Duluth Homegrown Radio
+ * Copyright 2012-13 Ganginator - Jesse Gangi - Duluth Homegrown Music Festival - Duluth Homegrown Radio
+ * Built by Ganginator for radio.duluthhomegrown.com
+ * "It's always the padding..." Ganginator
+ */
+ 
+/*
+	Jesse Gangi
+	jessegangi.com
+	218 310 2447
+	jgangi @ aerialapps.com
+	@Ganginator
+*/
+
+/*
+	CSS Specificity
+	
+	#1 = !important Class
+		+10000 Points
+	#2 = Inline Styling, Style Attributes
+		+1000 Points
+	#3 = Identifiers, Types, Psuedo-elements
+		+100 Points
+	#4 = Classes, Psuedo-classes, Attributes
+		+10 Points
+	#5 = HTML, Elements, Content Elements
+		+1 Points
+*/
+
+/*** EMPTY fields are for referencing what elements the code contains, whether or not I am applying a style. ***/
+/*** IN php SITES, aside AND article CONTENT AREA width ARE DESIGNATED BY DYNAMIC pagename QUERY ***/
+
+/*** Padding - Defines the space inside the element between the content and the element's border. ***/
+/*** Margin - Defines the space outside the element between the element's border and other elements. ***/
+
+/*** ID = Singular. i.e. A person's Identification (ID) is unique to one person. ***/
+/*** Class = Multiple. i.e. There are many people in a class. ***/
+
+
+/*** IDs +100 ***/
+
+
+#reload {
+	font-size: 12px;
+	line-height: 20px;
+	padding: 6px 10px 0 10px;
+}
+
+
+/*** / IDs ***/
+
+
+/*** CLASSes +10 ***/
+
+
+.100_center {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+/*** / CLASSes ***/
+
+
+/*** ELEMENTS +1 ***/
+
+
+/* EMPTY */
+
+
+/*** / ELEMENTS ***/
+
+
+/*** CONTENT ELEMENTS +1 ***/
+
+
+h1.player {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 20px;
+	text-decoration: underline;
+	/* margin-top: 10px; */
+}
+
+h2.player {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 24px;
+	text-decoration: none;
+	margin-bottom: -10px;
+	padding-bottom: -10px;
+}
+
+h3.player {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+	text-decoration: underline;
+}
+
+h4.player {
+	font-size: 16px;
+	line-height: 20px;
+	text-decoration: none;
+	margin-bottom: -10px;
+	padding-bottom: 0;
+}
+
+p.player {
+	font-size: 14px;
+	text-indent: 15px;
+	text-decoration: none;
+}
+
+a.player {
+	text-decoration: none;
+}
+
+
+/*** / CONTENT ELEMENTS ***/

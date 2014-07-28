@@ -1,0 +1,524 @@
+/*! ROOT/css/uploader.css */
+
+
+/*** MEDIA QUERIES ***/
+/*
+@media (max-width: 979px) {
+
+	.class .class {
+		padding: -40px;
+	}
+	
+}
+*/
+
+
+/* EMPTY */
+
+
+/*** / MEDIA QUERIES ***/
+
+
+/*** ALL ***/
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	/* border: 1px dashed yellow; */
+}
+
+
+/*** / ALL ***/
+
+
+/*** ! IMPORTANT CONTENT ELEMENTS +10000 ***/
+
+
+/* EMPTY */
+
+
+/*** / ! IMPORTANT CONTENT ELEMENTS ***/
+
+
+/*** IDS +100 red ***/
+/** ALL THE THINGS **/
+/*
+#id {
+	border: 1px dashed red;
+}
+*/
+
+
+/* ALL ID's */
+#* {
+	/* border: 1px dashed red; */
+}
+
+#wrapper {
+	text-align: center;
+	width: 500px;
+	padding: 0 25px 20px;
+	margin: 15px auto;
+	/* margin: 0 auto; */
+	overflow: hidden;
+	background: white;
+	border: 2px solid #DBDBDB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* border: 1px dashed red; */
+}
+
+#image {
+	text-align: center;
+	margin: 0 auto;
+	/* border: 1px dashed red; */
+}
+
+#image-input {
+	margin: 0 0 0 25%;
+	/* border: 1px dashed red; */
+}
+
+
+/** PAGES **/
+	/*
+	#page {
+		border: 1px dashed red;
+	}
+	*/
+	
+	
+	/* EMPTY */
+	
+	
+/** / PAGES **/
+
+
+/** CONTENT **/
+	/*
+	#content {
+		border: 1px dashed red;
+	}
+	*/
+	
+	
+	/* EMPTY */
+	
+	
+/** / CONTENT **/
+
+
+/** BREADCRUMB **/
+
+
+/* EMPTY */
+
+
+/** / BREADCRUMB **/
+
+
+/** / ALL THE THINGS **/
+/*** / IDS ***/
+
+
+/*** CLASSes +10 ***/
+/** THEIR TYPES **/
+/*
+.class {
+	border: 1px dashed blue;
+}
+*/
+
+
+/* ALL CLASSes */
+.* {
+	/* border: 1px dashed blue; */
+}
+
+.item {
+	color: light-blue;
+	/* border: 1px dashed blue; */
+}
+
+
+	/** GRID CLASSES **/
+	/*
+	.grid {
+		border: 1px dashed blue;
+	}
+	*/
+	
+	
+	/* EMPTY */
+	
+	
+	/** / GRID CLASSES **/
+
+
+	/** HELPER CLASSes white **/
+	/*
+	.class {
+		border: 1px dashed white;
+	}
+	*/
+	
+	
+	.white {
+		color: white;
+		/* border: 1px dashed white; */
+	}
+	
+	.red {
+		color: red;
+		/* border: 1px dashed white; */
+	}
+	
+	.green {
+		color: green;
+		/* border: 1px dashed white; */
+	}
+	
+	.bold {
+		font-weight: bold;
+		/* border: 1px dashed white; */
+	}
+	
+	.center {
+		text-align: center;
+		/* border: 1px dashed white; */
+	}
+	
+	.100-center {
+		width: 100%;
+		text-align: center;
+		/* border: 1px dashed white; */
+	}
+	
+	.100-center-auto {
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+		/* border: 1px dashed white; */
+	}
+	
+	.bump-left {
+		text-align: left;
+		margin-left: 40px;
+		float: left;
+		/* border: 1px dashed white; */
+	}
+	
+	.bump-right {
+		text-align: right;
+		margin-right: 40px;
+		float: right;
+		/* border: 1px dashed white; */
+	}
+	
+	.margin-top {
+		margin-top: 10px;
+		/* border: 1px dashed white; */
+	}
+	
+	.margin-bottom {
+		margin-bottom: 10px;
+		/* border: 1px dashed white; */
+	}
+	
+	.error {
+		color: red;
+		/* color: #468847; */
+		font-weight: bold;
+		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+		padding: 8px 35px 8px 14px;
+		margin: 20px 0;
+		/* display: none; */
+		/* background-color: #dff0d8; */
+		/* background-color: #ffff00; */
+		background-color: PaleVioletRed;
+		border-color: #d6e9c6;
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		/* border: 1px dashed white; */
+	}
+	
+	.error:a:link {
+		color: red;
+		/* color: #FF0000; */
+		/* border: 1px dashed yellow; */
+	}
+	
+	.error:a:visited {
+		color: red;
+		/* color: #00FF00; */
+		/* border: 1px dashed yellow; */
+	}
+	
+	.success {
+		color: green;
+		/* color: #468847; */
+		font-weight: bold;
+		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+		padding: 8px 35px 8px 14px;
+		margin: 20px 0;
+		/* display: none; */
+		background-color: #dff0d8;
+		border-color: #d6e9c6;
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		/* border: 1px dashed white; */
+	}
+	
+	.success:a:link {
+		color: green;
+		/* color: #FF0000; */
+		/* border: 1px dashed yellow; */
+	}
+	
+	.success:a:visited {
+		color: green;
+		/* color: #00FF00; */
+		/* border: 1px dashed yellow; */
+	}
+	
+	
+	/** / HELPER CLASSes **/
+
+
+	/** ICONS **/
+	/*
+	.icon {
+		border: 1px dashed white;
+	}
+	*/
+	
+	
+	/* EMPTY */
+	
+	
+	/** / ICONS **/
+
+
+/** / THEIR TYPES **/
+/*** / CLASSes ***/
+
+
+/*** ELEMENTS +1 green ***/
+/** GLOBALS **/
+/*
+element {
+	border: 1px dashed green;
+}
+*/
+
+
+html {
+	overflow-x: hidden;
+	/* border: 1px dashed green; */
+}
+
+/*
+head {
+	DO: NOT STYLE;
+}
+*/
+
+body {
+	color: #333;
+	/* font: 12px Georgia, Arial, Helvetica, sans-serif; */
+	font: 12px Georgia bold;
+	/* font-weight: bold; */
+	/* line-height: 18px; */
+	text-transform: inherit;
+	width: 100%;
+	/* background: #e7edee; */
+	background: black;
+	/* border: 1px dashed green; */
+}
+
+/* ALL div's */
+div {
+	/* border: 1px dashed green; */
+}
+
+form {
+	/* border: 1px dashed green; */
+}
+
+input {
+	color: silver;
+	width: 50%;
+	/* font-weight: bold; */
+	padding: 10px;
+	/* margin: 0 20px; */
+	cursor: pointer;
+	/* background: #991D57; */
+	background: black;
+	/* background-image: linear-gradient(bottom, #8C1C50 0%, #991D57 52%); */
+	/* background-image: -moz-linear-gradient(bottom, #8C1C50 0%, #991D57 52%); */
+	/* background-image: -webkit-linear-gradient(bottom, #8C1C50 0%, #991D57 52%); */
+	border: none;
+	border-radius: 5px;
+	/* border: 1px dashed green; */
+}
+
+input[type="submit"] {
+	color: #FFF;
+	width: 50%;
+	/* font-weight: bold; */
+	padding: 10px;
+	/* margin: 20px 0; */
+	cursor: pointer;
+	/* background: #991D57; */
+	background: black;
+	/* background-image: linear-gradient(bottom, #8C1C50 0%, #991D57 52%); */
+	/* background-image: -moz-linear-gradient(bottom, #8C1C50 0%, #991D57 52%); */
+	/* background-image: -webkit-linear-gradient(bottom, #8C1C50 0%, #991D57 52%); */
+	border: none;
+	border-radius: 5px;
+	/* border: 1px dashed green; */
+}
+
+input[type="submit"]:hover {
+	transition: background-color 0.3s ease-in-out;
+	-moz-transition: background 0.3s ease-in-out;
+	-webkit-transition: background 0.3s ease-in-out;
+	background-image: linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	background-image: -moz-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	background-image: -webkit-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	/* border: 1px dashed green; */
+}
+
+input[type="submit"]:active {
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+	/* border: 1px dashed green; */
+}
+
+/*
+small {
+	DO: NOT STYLE;
+}
+*/
+
+textarea {
+	color: silver;
+	width: 50%;
+	/* font-weight: bold; */
+	padding: 10px;
+	/* margin: 0 20px; */
+	cursor: pointer;
+	/* background: #991D57; */
+	background: black;
+	/* background-image: linear-gradient(bottom, #8C1C50 0%, #991D57 52%); */
+	/* background-image: -moz-linear-gradient(bottom, #8C1C50 0%, #991D57 52%); */
+	/* background-image: -webkit-linear-gradient(bottom, #8C1C50 0%, #991D57 52%); */
+	border: none;
+	border-radius: 5px;
+	/* border: 1px dashed green; */
+}
+
+/*
+#feet {
+	DO: NOT STYLE;
+}
+*/
+
+
+	/** CONTENT ELEMENTS **/
+	/*
+	element {
+		border: 1px dashed purple;
+	}
+	*/
+	
+	
+	/* ALL CONTENT HEADERS */
+	h1, h2, h3, h4, h5 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	h1 {
+		/* font-size: 1.9em; */
+		/* margin: 10px 0; */
+		/* border: 1px dashed yellow; */
+	}
+	
+	h2 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	h3 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	h4 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	h5 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	p {
+		/* margin: 8px 0; */
+		/* border: 1px dashed yellow; */
+	}
+	
+	a {
+		/* color: #333; */
+		color: black;
+		text-decoration: none;
+		/* border: 1px dashed yellow; */
+	}
+	
+	a:link {
+		color: red;
+		/* color: #FF0000; */
+		/* border: 1px dashed yellow; */
+	}
+	
+	a:visited {
+		color: black;
+		/* color: #00FF00; */
+		/* border: 1px dashed yellow; */
+	}
+	
+	a:hover {
+		color: blue;
+		/* color: #FF00FF; */
+		/* border-bottom: 1px solid black; */
+		/* border: 1px dashed yellow; */
+	}
+	
+	a:active {
+		color: white;
+		/* color: #0000FF; */
+		/* border: 1px dashed yellow; */
+	}
+	
+	/*
+	br {
+		DO: NOT STYLE;
+	}
+	*/
+	
+	
+	/** / CONTENT ELEMENTS **/
+
+
+/** / GLOBALS **/
+/*** / ELEMENTS ***/
+
+

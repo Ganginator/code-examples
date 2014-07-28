@@ -1,0 +1,81 @@
+/*! ROOT/css/image-upload.css */
+
+
+/*** IDS ***/
+
+
+#image {
+	/* border: 1px dashed red; */
+
+}
+
+
+/*** / IDS ***/
+
+
+/*** CLASSES ***/
+
+
+.wrapper {
+	text-align: center;
+	/* border: 1px dashed blue; */
+}
+
+.item {
+	color: light-blue;
+	/* border: 1px dashed blue; */
+}
+
+
+/** HELPER CLASSES **/
+
+
+.white {
+	color: white;
+	/* border: 1px dashed white; */
+}
+
+.red {
+	color: red;
+	/* border: 1px dashed white; */
+}
+
+.green {
+	color: green;
+	/* border: 1px dashed white; */
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+	/* border: 1px dashed white; */
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+	/* border: 1px dashed white; */
+}
+
+.success {
+	color: green;
+	font-weight: bold;
+	/* border: 1px dashed white; */
+}
+
+
+/** / HELPER CLASSES **/
+
+
+.input {
+	color: white;
+	/* border: 1px dashed white; */
+}
+
+
+/*** / CLASSES ***/
+
+

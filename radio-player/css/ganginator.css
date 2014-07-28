@@ -1,0 +1,203 @@
+/*!
+ * Custom CSS for Duluth Homegrown Radio
+ * Copyright 2012-13 Ganginator - Jesse Gangi - Duluth Homegrown Music Festival - Duluth Homegrown Radio
+ * Built by Ganginator for radio.duluthhomegrown.com
+ * "It's always the padding..." Ganginator
+ */
+
+/*
+	Jesse Gangi
+	jessegangi.com
+	218 310 2447
+	jgangi @ aerialapps.com
+	@Ganginator
+*/
+
+/*
+	CSS Specificity
+	
+	#1 = !important Class
+		+10000 Points
+	#2 = Inline Styling, Style Attributes
+		+1000 Points
+	#3 = Identifiers, Types, Psuedo-elements
+		+100 Points
+	#4 = Classes, Psuedo-classes, Attributes
+		+10 Points
+	#5 = HTML, Elements, Content Elements
+		+1 Points
+*/
+
+/*** EMPTY fields are for referencing what elements the code contains, whether or not I am applying a style. ***/
+/*** IN php SITES, aside AND article CONTENT AREA width ARE DESIGNATED BY DYNAMIC pagename QUERY ***/
+
+/*** Padding - Defines the space inside the element between the content and the element's border. ***/
+/*** Margin - Defines the space outside the element between the element's border and other elements. ***/
+
+/*** ID = Singular. i.e. A person's Identification (ID) is unique to one person. ***/
+/*** Class = Multiple. i.e. There are many people in a class. ***/
+
+
+/*** ! IMPORTANT CONTENT ELEMENTS +10000 ***/
+
+
+/* EMPTY */
+
+
+/*** / ! IMPORTANT CONTENT ELEMENTS ***/
+
+
+/*** IDs +100 ***/
+
+
+#outer {
+	/* border: 1px dashed white; */
+}
+
+#inner {
+	width: 200px;
+	/* width: 75%; */
+	/* height: 100%; */
+	margin: 0 auto;
+	/* background-color: #e6e7c5; */
+	/* border: 1px dashed white; */
+}
+
+/* DO NOT SET CSS FOR feet ID */
+
+
+/*** / IDs ***/
+
+
+/*** CLASSes +10 ***/
+
+
+.100_center {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.bump-right {
+	margin-left: 40px;
+}
+
+.bump-left {
+	margin-right: 40px;
+}
+
+.brand {
+	/* EMPTY */
+}
+
+.breadcrumb {
+	text-align: center;
+}
+
+.marketing .span4 {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.marketing h2 {
+	/* font-weight: normal; ORIGINAL */
+	font-weight: bold;
+}
+
+.marketing .span4 p {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.featurette-divider {
+	margin: 40px 0;
+}
+
+
+/*** / CLASSes ***/
+
+
+/*** ELEMENTS +1 ***/
+
+
+html {
+	background: xurl(http://aerialapps.com/files/images/backgrounds/background_Stainless-Steel_251x201px.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: black;
+	/* border: 1px dashed yellow; */
+}
+
+/* DO NOT SET CSS FOR head ELEMENT */
+
+body {
+	/* height: 100%; */
+	color: white;
+	font-size: 14px;
+	font-family: Georgia, Helvetica, Arial, sans-serif;
+	line-height: 20px;
+	margin: 0;
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+	padding-bottom: 20px;
+	background-color: #000000;
+	/* border: 1px dashed white; */
+}
+
+footer {
+	text-align: center;
+	/* padding: 6px 0; */
+    position: relative;
+	overflow: auto;
+	/* display: block; */
+	background-color: #f7f5d2;
+	/* clear: both; */
+	/* border: 1px dashed green; */
+}
+
+
+/*** / ELEMENTS ***/
+
+
+/*** CONTENT ELEMENTS +1 ***/
+
+
+h1 {
+	font-size: 30px;
+	text-decoration: underline;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+p {
+	font-size: 14px;
+	text-indent: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*** / CONTENT ELEMENTS ***/

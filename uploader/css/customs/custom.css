@@ -1,0 +1,350 @@
+/*! ROOT/css/customs/custom.css */
+
+
+/*** MEDIA QUERIES ***/
+/*
+@media (max-width: 979px) {
+
+	.class .class {
+		padding: -40px;
+	}
+	
+}
+*/
+
+
+/* EMPTY */
+
+
+/*** / MEDIA QUERIES ***/
+
+
+/*** ALL ***/
+
+
+* {
+	/* border: 1px dashed yellow; */
+}
+
+
+/*** / ALL ***/
+
+
+/*** ! IMPORTANT CONTENT ELEMENTS +10000 ***/
+
+
+/* EMPTY */
+
+
+/*** / ! IMPORTANT CONTENT ELEMENTS ***/
+
+
+/*** IDS +100 red ***/
+/** ALL THE THINGS **/
+/*
+#id {
+	border: 1px dashed red;
+}
+*/
+
+
+/* ALL ID's */
+#* {
+	/* border: 1px dashed red; */
+}
+
+#wrapper {
+	/* border: 1px dashed red; */
+}
+
+#image {
+	/* border: 1px dashed red; */
+}
+
+
+/** PAGES **/
+	/*
+	#page {
+		border: 1px dashed red;
+	}
+	*/
+	
+	
+	/* EMPTY */
+	
+	
+/** / PAGES **/
+
+
+/** CONTENT **/
+	/*
+	#content {
+		border: 1px dashed red;
+	}
+	*/
+	
+	
+	/* EMPTY */
+	
+	
+/** / CONTENT **/
+
+
+/** BREADCRUMB **/
+
+
+/* EMPTY */
+
+
+/** / BREADCRUMB **/
+
+
+/** / ALL THE THINGS **/
+/*** / IDS ***/
+
+
+/*** CLASSes +10 ***/
+/** THEIR TYPES **/
+/*
+.class {
+	border: 1px dashed blue;
+}
+*/
+
+
+/* ALL CLASSes */
+.* {
+	/* border: 1px dashed blue; */
+}
+
+.item {
+	/* border: 1px dashed blue; */
+}
+
+
+	/** GRID CLASSES **/
+	/*
+	.grid {
+		border: 1px dashed blue;
+	}
+	*/
+	
+	
+	/* EMPTY */
+	
+	
+	/** / GRID CLASSES **/
+
+
+	/** HELPER CLASSes white **/
+	/* !!! THESE REALLY SHOULDN'T BE EDITED SINCE THEY ARE WHAT THEY ARE. !!! */
+	/* !!! I'VE LEFT THEM IN SO YOU KNOW THEY EXIST !!! */
+	/*
+	.class {
+		border: 1px dashed white;
+	}
+	*/
+	
+	
+	.white {
+		/* border: 1px dashed white; */
+	}
+	
+	.white {
+		/* border: 1px dashed white; */
+	}
+	
+	.red {
+		/* border: 1px dashed white; */
+	}
+	
+	.green {
+		/* border: 1px dashed white; */
+	}
+	
+	.bold {
+		/* border: 1px dashed white; */
+	}
+	
+	.center {
+		/* border: 1px dashed white; */
+	}
+	
+	.100-center {
+		/* border: 1px dashed white; */
+	}
+	
+	.100-center-auto {
+		/* border: 1px dashed white; */
+	}
+	
+	.bump-left {
+		/* border: 1px dashed white; */
+	}
+	
+	.bump-right {
+		/* border: 1px dashed white; */
+	}
+	
+	.margin-top {
+		/* border: 1px dashed white; */
+	}
+	
+	.margin-bottom {
+		/* border: 1px dashed white; */
+	}
+	
+	.error {
+		/* border: 1px dashed white; */
+	}
+	
+	.success {
+		/* border: 1px dashed white; */
+	}
+	
+	
+	/** / HELPER CLASSes **/
+
+
+	/** ICONS **/
+	/*
+	.icon {
+		border: 1px dashed white;
+	}
+	*/
+	
+	
+	/* EMPTY */
+	
+	
+	/** / ICONS **/
+
+
+/** / THEIR TYPES **/
+/*** / CLASSes ***/
+
+
+/*** ELEMENTS +1 green ***/
+/** GLOBALS **/
+/*
+element {
+	border: 1px dashed green;
+}
+*/
+
+
+html {
+	/* border: 1px dashed green; */
+}
+
+/*
+head {
+	DO: NOT STYLE;
+}
+*/
+
+body {
+	/* border: 1px dashed green; */
+}
+
+/* ALL div's */
+div {
+	/* border: 1px dashed green; */
+}
+
+form {
+	/* border: 1px dashed green; */
+}
+
+input {
+	/* border: 1px dashed green; */
+}
+
+/*
+small {
+	DO: NOT STYLE;
+}
+*/
+
+textarea {
+	/* border: 1px dashed green; */
+}
+
+/*
+#feet {
+	DO: NOT STYLE;
+}
+*/
+
+
+	/** CONTENT ELEMENTS **/
+	/*
+	element {
+		border: 1px dashed purple;
+	}
+	*/
+	
+	
+	/* ALL CONTENT HEADERS */
+	h1, h2, h3, h4, h5 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	h1 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	h2 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	h3 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	h4 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	h5 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	p {
+		/* border: 1px dashed yellow; */
+	}
+	
+	a {
+		/* border: 1px dashed yellow; */
+	}
+	
+	a:link {
+		/* border: 1px dashed yellow; */
+	}
+	
+	a:visited {
+		/* border: 1px dashed yellow; */
+	}
+	
+	a:hover {
+		/* border: 1px dashed yellow; */
+	}
+	
+	a:active {
+		/* border: 1px dashed yellow; */
+	}
+	
+	/*
+	br {
+		DO: NOT STYLE;
+	}
+	*/
+	
+	
+	/** / CONTENT ELEMENTS **/
+
+
+/** / GLOBALS **/
+/*** / ELEMENTS ***/
+
+
